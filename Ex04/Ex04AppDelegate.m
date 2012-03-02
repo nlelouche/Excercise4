@@ -7,13 +7,17 @@
 //
 
 #import "Ex04AppDelegate.h"
+#import "MyUIViewController.h"
+
 
 @implementation Ex04AppDelegate
 
 @synthesize window = _window;
+@synthesize tally;
 
 - (void)dealloc
 {
+    [tally release];
     [_window release];
     [super dealloc];
 }
@@ -24,6 +28,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    MyUIViewController *fvc = [[MyUIViewController alloc] initWithNibName:@"MyUIViewController" bundle:nil];
+    self.window.rootViewController = fvc;
+    
     return YES;
 }
 

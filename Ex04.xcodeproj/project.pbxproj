@@ -13,6 +13,9 @@
 		EA51C6C314DADEBB00875E84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA51C6C114DADEBB00875E84 /* InfoPlist.strings */; };
 		EA51C6C514DADEBB00875E84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA51C6C414DADEBB00875E84 /* main.m */; };
 		EA51C6C914DADEBC00875E84 /* Ex04AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA51C6C814DADEBC00875E84 /* Ex04AppDelegate.m */; };
+		EA51C6D214DADF2D00875E84 /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA51C6D014DADF2D00875E84 /* MyUIViewController.m */; };
+		EA51C6D314DADF2D00875E84 /* MyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA51C6D114DADF2D00875E84 /* MyUIViewController.xib */; };
+		EAF32E3114DC1C7A006D7F89 /* Tally.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF32E3014DC1C7A006D7F89 /* Tally.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		EA51C6B814DADEBB00875E84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA51C6BA14DADEBB00875E84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA51C6BC14DADEBB00875E84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EA51C6C014DADEBB00875E84 /* Ex04-Info.plist */ = {isa = PBXFileReference; path = "Ex04-Info.plist"; sourceTree = "<group>"; };
+		EA51C6C014DADEBB00875E84 /* Ex04-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex04-Info.plist"; sourceTree = "<group>"; };
 		EA51C6C214DADEBB00875E84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA51C6C414DADEBB00875E84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA51C6C614DADEBC00875E84 /* Ex04-Prefix.pch */ = {isa = PBXFileReference; path = "Ex04-Prefix.pch"; sourceTree = "<group>"; };
-		EA51C6C714DADEBC00875E84 /* Ex04AppDelegate.h */ = {isa = PBXFileReference; path = Ex04AppDelegate.h; sourceTree = "<group>"; };
+		EA51C6C614DADEBC00875E84 /* Ex04-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ex04-Prefix.pch"; sourceTree = "<group>"; };
+		EA51C6C714DADEBC00875E84 /* Ex04AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex04AppDelegate.h; sourceTree = "<group>"; };
 		EA51C6C814DADEBC00875E84 /* Ex04AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex04AppDelegate.m; sourceTree = "<group>"; };
+		EA51C6CF14DADF2D00875E84 /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIViewController.h; sourceTree = "<group>"; };
+		EA51C6D014DADF2D00875E84 /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		EA51C6D114DADF2D00875E84 /* MyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUIViewController.xib; sourceTree = "<group>"; };
+		EAF32E2F14DC1C7A006D7F89 /* Tally.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tally.h; sourceTree = "<group>"; };
+		EAF32E3014DC1C7A006D7F89 /* Tally.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tally.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +80,13 @@
 		EA51C6BE14DADEBB00875E84 /* Ex04 */ = {
 			isa = PBXGroup;
 			children = (
+				EAF32E2F14DC1C7A006D7F89 /* Tally.h */,
+				EAF32E3014DC1C7A006D7F89 /* Tally.m */,
 				EA51C6C714DADEBC00875E84 /* Ex04AppDelegate.h */,
 				EA51C6C814DADEBC00875E84 /* Ex04AppDelegate.m */,
+				EA51C6CF14DADF2D00875E84 /* MyUIViewController.h */,
+				EA51C6D014DADF2D00875E84 /* MyUIViewController.m */,
+				EA51C6D114DADF2D00875E84 /* MyUIViewController.xib */,
 				EA51C6BF14DADEBB00875E84 /* Supporting Files */,
 			);
 			path = Ex04;
@@ -141,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA51C6C314DADEBB00875E84 /* InfoPlist.strings in Resources */,
+				EA51C6D314DADF2D00875E84 /* MyUIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +167,8 @@
 			files = (
 				EA51C6C514DADEBB00875E84 /* main.m in Sources */,
 				EA51C6C914DADEBC00875E84 /* Ex04AppDelegate.m in Sources */,
+				EA51C6D214DADF2D00875E84 /* MyUIViewController.m in Sources */,
+				EAF32E3114DC1C7A006D7F89 /* Tally.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +270,7 @@
 				EA51C6CE14DADEBC00875E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

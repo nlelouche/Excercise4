@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tally.h"
 
 @interface Ex04AppDelegate : UIResponder <UIApplicationDelegate>
 
+
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, retain) Tally *tally;
 @end
